@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compétences techniques de Raphaël Mayaudon : réseaux, systèmes, virtualisation, sécurité et développement.">
+    <title>Compétences – Raphaël Mayaudon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="brand">
+                <span class="brand-logo">RM</span>
+                <span>Raphaël Mayaudon<small>BTS SIO – option SISR</small></span>
+            </a>
+
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li>
+                    <button aria-expanded="false">Parcours <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="parcours.html#experiences">Expériences professionnelles<span>Stage, emplois</span></a></li>
+                        <li><a href="parcours.html#formation">Formation<span>BTS SIO, Bac STI2D</span></a></li>
+                        <li><a href="parcours.html#certifications">Certifications<span>CCNA, Linux, ANSSI</span></a></li>
+                        <li><a href="parcours.html#profil">Qualités et centres d'intérêt</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false" class="active">Compétences <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="competences.html#securite">Cybersécurité<span>Pare-feu, filtrage, bonnes pratiques</span></a></li>
+                        <li><a href="competences.html#reseaux">Réseaux</a></li>
+                        <li><a href="competences.html#systemes">Systèmes et virtualisation</a></li>
+                        <li><a href="competences.html#developpement">Développement</a></li>
+                        <li><a href="competences.html#logiciels">Logiciels et outils</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false">Projets <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="projets.html#infrastructure">Infrastructure réseau d'entreprise</a></li>
+                        <li><a href="projets.html#serveur-web">Serveur web Linux</a></li>
+                        <li><a href="projets.html#virtualisation">Solution de virtualisation</a></li>
+                        <li><a href="projets.html#radan">Déploiement logiciel en entreprise<span>Réalisé en stage</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="CV_Raphael_MAYAUDON.pdf" class="btn-cv" target="_blank" rel="noopener">Mon CV</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <p class="breadcrumb"><a href="index.html">Accueil</a> / Compétences</p>
+                <h1>Compétences techniques</h1>
+                <p>Le détail des compétences acquises en BTS SIO, en stage et grâce à mes certifications.</p>
+            </div>
+        </section>
+
+        <nav class="subnav" aria-label="Sections de la page">
+            <div class="container">
+                <ul>
+                    <li><a href="#securite">Cybersécurité</a></li>
+                    <li><a href="#reseaux">Réseaux</a></li>
+                    <li><a href="#systemes">Systèmes et virtualisation</a></li>
+                    <li><a href="#developpement">Développement</a></li>
+                    <li><a href="#logiciels">Logiciels et outils</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="section" id="securite">
+            <div class="container">
+                <div class="section-title" style="display:flex;gap:16px;align-items:flex-start">
+                    <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+                    <div><h2>Cybersécurité</h2><p>Le domaine dans lequel je souhaite me spécialiser : protéger les réseaux, les systèmes et les utilisateurs.</p></div>
+                </div>
+                <div class="card" style="overflow-x:auto">
+                    <table class="skill-table">
+                        <thead><tr><th>Compétence</th><th>Ce que je sais faire</th><th>Mis en pratique</th></tr></thead>
+                        <tbody>
+                            <tr><td>pfSense</td><td>Mise en place et configuration d'un pare-feu</td><td>BTS SIO</td></tr>
+                            <tr><td>Règles de filtrage et NAT</td><td>Autoriser ou bloquer les flux, traduction d'adresses</td><td>BTS SIO</td></tr>
+                            <tr><td>Segmentation réseau</td><td>Isolation des services et des utilisateurs par VLAN</td><td><a href="projets.html#infrastructure">Projet infrastructure</a></td></tr>
+                            <tr><td>Chiffrement et VPN</td><td>Principes du chiffrement et des tunnels VPN</td><td>BTS SIO</td></tr>
+                            <tr><td>Gestion des droits d'accès</td><td>Utilisateurs et groupes avec différents niveaux d'accès</td><td><a href="projets.html#infrastructure">Projet infrastructure</a>, <a href="parcours.html#stage-peignen">Stage ETS Henri Peignen</a></td></tr>
+                            <tr><td>Sensibilisation</td><td>Bonnes pratiques de cybersécurité auprès des utilisateurs</td><td><a href="parcours.html#stage-peignen">Stage ETS Henri Peignen</a>, MOOC ANSSI</td></tr>
+                            <tr><td>Supervision</td><td>Utilisation d'un outil de supervision du parc</td><td><a href="parcours.html#stage-peignen">Stage ETS Henri Peignen</a></td></tr>
+                            <tr><td>Sauvegardes</td><td>Sauvegarde et restauration de données</td><td>BTS SIO</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="section alt" id="reseaux">
+            <div class="container">
+                <div class="section-title" style="display:flex;gap:16px;align-items:flex-start">
+                    <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg></div>
+                    <div><h2>Réseaux</h2><p>Conception, adressage et configuration de réseaux d'entreprise.</p></div>
+                </div>
+                <div class="card" style="overflow-x:auto">
+                    <table class="skill-table">
+                        <thead><tr><th>Compétence</th><th>Ce que je sais faire</th><th>Mis en pratique</th></tr></thead>
+                        <tbody>
+                            <tr><td>Adressage IP</td><td>Plans d'adressage, calcul de sous-réseaux</td><td>BTS SIO, CCNA</td></tr>
+                            <tr><td>Routage</td><td>Routage statique et protocole RIP</td><td>BTS SIO, CCNA</td></tr>
+                            <tr><td>DHCP / DNS / NAT</td><td>Mise en place et configuration des services réseau</td><td><a href="projets.html#infrastructure">Projet infrastructure</a></td></tr>
+                            <tr><td>VLAN</td><td>Segmentation d'un réseau en VLAN</td><td><a href="projets.html#infrastructure">Projet infrastructure</a></td></tr>
+                            <tr><td>Cisco Packet Tracer</td><td>Simulation et test de topologies réseau</td><td>BTS SIO, CCNA</td></tr>
+                            <tr><td>Câblage RJ45</td><td>Câblage et raccordement de postes</td><td><a href="parcours.html#stage-peignen">Stage ETS Henri Peignen</a></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="systemes">
+            <div class="container">
+                <div class="section-title" style="display:flex;gap:16px;align-items:flex-start">
+                    <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="1.5"/><rect x="3" y="14" width="18" height="7" rx="1.5"/><path d="M7 6.5h.01M7 17.5h.01"/></svg></div>
+                    <div><h2>Systèmes et virtualisation</h2><p>Installation et administration de systèmes Windows et Linux, virtualisation.</p></div>
+                </div>
+                <div class="card" style="overflow-x:auto">
+                    <table class="skill-table">
+                        <thead><tr><th>Compétence</th><th>Ce que je sais faire</th><th>Mis en pratique</th></tr></thead>
+                        <tbody>
+                            <tr><td>Linux (Debian / Ubuntu)</td><td>Installation, administration, services</td><td><a href="projets.html#serveur-web">Projet serveur web</a>, certification Linux</td></tr>
+                            <tr><td>Windows / Windows Server</td><td>Préparation de postes, services Windows Server</td><td><a href="parcours.html#stage-peignen">Stage ETS Henri Peignen</a>, <a href="projets.html#infrastructure">Projet infrastructure</a></td></tr>
+                            <tr><td>Active Directory (notions)</td><td>Utilisateurs, groupes et droits d'accès</td><td><a href="parcours.html#stage-peignen">Stage ETS Henri Peignen</a>, <a href="projets.html#infrastructure">Projet infrastructure</a></td></tr>
+                            <tr><td>VirtualBox</td><td>Création et gestion de machines virtuelles</td><td><a href="projets.html#virtualisation">Projet virtualisation</a></td></tr>
+                            <tr><td>Proxmox</td><td>Hyperviseur de virtualisation</td><td>BTS SIO</td></tr>
+                            <tr><td>SSH</td><td>Administration à distance sécurisée de serveurs</td><td>BTS SIO</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="section alt" id="developpement">
+            <div class="container">
+                <div class="section-title" style="display:flex;gap:16px;align-items:flex-start">
+                    <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></div>
+                    <div><h2>Développement</h2><p>Bases du développement web et des bases de données.</p></div>
+                </div>
+                <div class="card" style="overflow-x:auto">
+                    <table class="skill-table">
+                        <thead><tr><th>Compétence</th><th>Ce que je sais faire</th><th>Mis en pratique</th></tr></thead>
+                        <tbody>
+                            <tr><td>HTML / CSS</td><td>Création de pages web (dont ce portfolio)</td><td>Ce portfolio</td></tr>
+                            <tr><td>PHP (notions)</td><td>Pages dynamiques</td><td>BTS SIO</td></tr>
+                            <tr><td>MySQL</td><td>Création et interrogation de bases de données</td><td>BTS SIO</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="logiciels">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Logiciels et outils</h2>
+                    <p>Cliquez sur un outil pour afficher le détail.</p>
+                </div>
+                <details class="accordion" open>
+                    <summary><span>Radan</span></summary>
+                    <div class="accordion-body">
+                        <p>Logiciel professionnel installé et configuré sur plusieurs postes pendant mon stage chez ETS Henri Peignen.</p>
+                        <a href="projets.html#radan" class="card-link">Voir la réalisation →</a>
+                    </div>
+                </details>
+                <details class="accordion">
+                    <summary><span>Outil de supervision informatique</span></summary>
+                    <div class="accordion-body">
+                        <p>Utilisé pendant mon stage pour suivre l'état du parc informatique.</p>
+                        <a href="parcours.html#stage-peignen" class="card-link">Voir le stage →</a>
+                    </div>
+                </details>
+                <details class="accordion">
+                    <summary><span>Cisco Packet Tracer</span></summary>
+                    <div class="accordion-body"><p>Simulation de réseaux : routeurs, switchs, VLAN, routage. Utilisé en BTS SIO et pour le CCNA.</p></div>
+                </details>
+                <details class="accordion">
+                    <summary><span>VirtualBox et Proxmox</span></summary>
+                    <div class="accordion-body">
+                        <p>Création de machines virtuelles pour tester des systèmes et des services sans matériel dédié.</p>
+                        <a href="projets.html#virtualisation" class="card-link">Voir le projet virtualisation →</a>
+                    </div>
+                </details>
+                <details class="accordion">
+                    <summary><span>pfSense</span></summary>
+                    <div class="accordion-body"><p>Pare-feu open source : règles de filtrage et NAT.</p></div>
+                </details>
+                <details class="accordion">
+                    <summary><span>Windows Server et Active Directory</span></summary>
+                    <div class="accordion-body">
+                        <p>Services d'annuaire et gestion des utilisateurs, découverts en stage et mis en œuvre en BTS.</p>
+                        <a href="projets.html#infrastructure" class="card-link">Voir le projet infrastructure →</a>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Raphaël Mayaudon</h4>
+                    <p>Étudiant en BTS SIO option SISR à l'Institution Saint-Aspais de Melun. À la recherche d'un stage en administration réseau et cybersécurité du 4 janvier au 6 février 2027.</p>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="parcours.html">Parcours</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:raphaelmayaudon778@gmail.com">raphaelmayaudon778@gmail.com</a></li>
+                        <li><a href="tel:+33783801743">07 83 80 17 43</a></li>
+                        <li>Le Châtelet-en-Brie (77)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">© <span id="year">2026</span> Raphaël Mayaudon – Portfolio BTS SIO SISR</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

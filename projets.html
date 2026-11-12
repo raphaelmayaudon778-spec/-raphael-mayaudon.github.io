@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projets et réalisations de Raphaël Mayaudon en BTS SIO SISR et en stage.">
+    <title>Projets – Raphaël Mayaudon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="brand">
+                <span class="brand-logo">RM</span>
+                <span>Raphaël Mayaudon<small>BTS SIO – option SISR</small></span>
+            </a>
+
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li>
+                    <button aria-expanded="false">Parcours <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="parcours.html#experiences">Expériences professionnelles<span>Stage, emplois</span></a></li>
+                        <li><a href="parcours.html#formation">Formation<span>BTS SIO, Bac STI2D</span></a></li>
+                        <li><a href="parcours.html#certifications">Certifications<span>CCNA, Linux, ANSSI</span></a></li>
+                        <li><a href="parcours.html#profil">Qualités et centres d'intérêt</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false">Compétences <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="competences.html#securite">Cybersécurité<span>Pare-feu, filtrage, bonnes pratiques</span></a></li>
+                        <li><a href="competences.html#reseaux">Réseaux</a></li>
+                        <li><a href="competences.html#systemes">Systèmes et virtualisation</a></li>
+                        <li><a href="competences.html#developpement">Développement</a></li>
+                        <li><a href="competences.html#logiciels">Logiciels et outils</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false" class="active">Projets <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="projets.html#infrastructure">Infrastructure réseau d'entreprise</a></li>
+                        <li><a href="projets.html#serveur-web">Serveur web Linux</a></li>
+                        <li><a href="projets.html#virtualisation">Solution de virtualisation</a></li>
+                        <li><a href="projets.html#radan">Déploiement logiciel en entreprise<span>Réalisé en stage</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="CV_Raphael_MAYAUDON.pdf" class="btn-cv" target="_blank" rel="noopener">Mon CV</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <p class="breadcrumb"><a href="index.html">Accueil</a> / Projets</p>
+                <h1>Projets et réalisations</h1>
+                <p>Travaux réalisés en formation et en entreprise.</p>
+            </div>
+        </section>
+
+        <nav class="subnav" aria-label="Projets">
+            <div class="container">
+                <ul>
+                    <li><a href="#infrastructure">Infrastructure réseau</a></li>
+                    <li><a href="#serveur-web">Serveur web Linux</a></li>
+                    <li><a href="#virtualisation">Virtualisation</a></li>
+                    <li><a href="#radan">Déploiement logiciel (stage)</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="section" id="infrastructure">
+            <div class="container">
+                <div class="section-title"><h2>Infrastructure réseau d'entreprise</h2><p>Projet réalisé en BTS SIO.</p></div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Objectif</h3>
+                        <p>Concevoir et mettre en place l'infrastructure réseau d'une entreprise, avec des services centralisés.</p>
+                        <div class="tags"><a class="tag" href="competences.html#systemes">Windows Server</a><a class="tag" href="competences.html#systemes">Active Directory</a><a class="tag" href="competences.html#reseaux">VLAN</a><a class="tag" href="competences.html#reseaux">Cisco</a></div>
+                    </div>
+                    <div class="card">
+                        <h3>Ce que j'ai réalisé</h3>
+                        <ul class="list">
+                                <li>Segmentation du réseau en VLAN.</li>
+                                <li>Mise en place des services DHCP et DNS.</li>
+                                <li>Configuration des équipements Cisco.</li>
+                                <li>Gestion des utilisateurs avec Active Directory sous Windows Server.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Ajoute ici une capture d'écran ou un schéma réseau :
+                <img src="images/infrastructure.png" alt="Infrastructure réseau d'entreprise" style="margin-top:24px;border-radius:10px;border:1px solid #dfe5ec"> -->
+            </div>
+        </section>
+        <section class="section alt" id="serveur-web">
+            <div class="container">
+                <div class="section-title"><h2>Serveur web Linux</h2><p>Projet réalisé en BTS SIO.</p></div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Objectif</h3>
+                        <p>Héberger un site web sur un serveur Linux.</p>
+                        <div class="tags"><a class="tag" href="competences.html#systemes">Linux</a><a class="tag" href="competences.html#systemes">Apache</a></div>
+                    </div>
+                    <div class="card">
+                        <h3>Ce que j'ai réalisé</h3>
+                        <ul class="list">
+                                <li>Installation d'un serveur Linux.</li>
+                                <li>Installation et configuration du serveur web Apache.</li>
+                                <li>Mise en ligne et test du site.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Ajoute ici une capture d'écran ou un schéma réseau :
+                <img src="images/serveur-web.png" alt="Serveur web Linux" style="margin-top:24px;border-radius:10px;border:1px solid #dfe5ec"> -->
+            </div>
+        </section>
+        <section class="section" id="virtualisation">
+            <div class="container">
+                <div class="section-title"><h2>Solution de virtualisation</h2><p>Projet réalisé en BTS SIO.</p></div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Objectif</h3>
+                        <p>Optimiser les ressources serveur et faciliter le déploiement de nouveaux services grâce à la virtualisation.</p>
+                        <div class="tags"><a class="tag" href="competences.html#systemes">Virtualisation</a><a class="tag" href="competences.html#logiciels">VirtualBox</a></div>
+                    </div>
+                    <div class="card">
+                        <h3>Ce que j'ai réalisé</h3>
+                        <ul class="list">
+                                <li>Mise en œuvre d'une plateforme de virtualisation.</li>
+                                <li>Création et configuration de machines virtuelles.</li>
+                                <li>Déploiement de services sur les machines virtuelles.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Ajoute ici une capture d'écran ou un schéma réseau :
+                <img src="images/virtualisation.png" alt="Solution de virtualisation" style="margin-top:24px;border-radius:10px;border:1px solid #dfe5ec"> -->
+            </div>
+        </section>
+        <section class="section alt" id="radan">
+            <div class="container">
+                <div class="section-title"><h2>Déploiement logiciel en entreprise</h2><p>Réalisé pendant mon <a href="parcours.html#stage-peignen">stage chez ETS Henri Peignen</a> (mai – juin 2026).</p></div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Objectif</h3>
+                        <p>Installer et configurer le logiciel professionnel Radan sur les postes de l'entreprise, et accompagner les utilisateurs.</p>
+                        <div class="tags"><a class="tag" href="parcours.html#stage-peignen">Stage</a><a class="tag" href="competences.html#logiciels">Radan</a><a class="tag" href="parcours.html#stage-peignen">Support utilisateurs</a></div>
+                    </div>
+                    <div class="card">
+                        <h3>Ce que j'ai réalisé</h3>
+                        <ul class="list">
+                                <li>Installation et configuration de Radan sur plusieurs postes.</li>
+                                <li>Mise à jour et préparation des postes utilisateurs.</li>
+                                <li>Support et accompagnement des utilisateurs.</li>
+                                <li>Respect des procédures et des règles de sécurité informatique.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Ajoute ici une capture d'écran ou un schéma réseau :
+                <img src="images/radan.png" alt="Déploiement logiciel en entreprise" style="margin-top:24px;border-radius:10px;border:1px solid #dfe5ec"> -->
+            </div>
+        </section>
+        <!-- Projet à ajouter quand il sera terminé : Supervision réseau
+             (installation d'outils de monitoring, alertes en cas d'incident).
+             Copie un bloc <section> ci-dessus et adapte-le. -->
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Raphaël Mayaudon</h4>
+                    <p>Étudiant en BTS SIO option SISR à l'Institution Saint-Aspais de Melun. À la recherche d'un stage en administration réseau et cybersécurité du 4 janvier au 6 février 2027.</p>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="parcours.html">Parcours</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:raphaelmayaudon778@gmail.com">raphaelmayaudon778@gmail.com</a></li>
+                        <li><a href="tel:+33783801743">07 83 80 17 43</a></li>
+                        <li>Le Châtelet-en-Brie (77)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">© <span id="year">2026</span> Raphaël Mayaudon – Portfolio BTS SIO SISR</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

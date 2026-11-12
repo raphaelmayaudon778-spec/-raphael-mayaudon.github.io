@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Raphaël Mayaudon, étudiant en BTS SIO option SISR à Melun, à la recherche d'un stage en réseau et cybersécurité.">
+    <title>Raphaël Mayaudon – Portfolio BTS SIO SISR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="brand">
+                <span class="brand-logo">RM</span>
+                <span>Raphaël Mayaudon<small>BTS SIO – option SISR</small></span>
+            </a>
+
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+            <ul class="menu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li>
+                    <button aria-expanded="false">Parcours <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="parcours.html#experiences">Expériences professionnelles<span>Stage, emplois</span></a></li>
+                        <li><a href="parcours.html#formation">Formation<span>BTS SIO, Bac STI2D</span></a></li>
+                        <li><a href="parcours.html#certifications">Certifications<span>CCNA, Linux, ANSSI</span></a></li>
+                        <li><a href="parcours.html#profil">Qualités et centres d'intérêt</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false">Compétences <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="competences.html#securite">Cybersécurité<span>Pare-feu, filtrage, bonnes pratiques</span></a></li>
+                        <li><a href="competences.html#reseaux">Réseaux</a></li>
+                        <li><a href="competences.html#systemes">Systèmes et virtualisation</a></li>
+                        <li><a href="competences.html#developpement">Développement</a></li>
+                        <li><a href="competences.html#logiciels">Logiciels et outils</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false">Projets <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="projets.html#infrastructure">Infrastructure réseau d'entreprise</a></li>
+                        <li><a href="projets.html#serveur-web">Serveur web Linux</a></li>
+                        <li><a href="projets.html#virtualisation">Solution de virtualisation</a></li>
+                        <li><a href="projets.html#radan">Déploiement logiciel en entreprise<span>Réalisé en stage</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="CV_Raphael_MAYAUDON.pdf" class="btn-cv" target="_blank" rel="noopener">Mon CV</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <span class="eyebrow">&gt; portfolio --bts-sio --sisr</span>
+                    <h1>Raphaël <span class="accent">Mayaudon</span></h1>
+                    <h2 class="role">Réseaux &amp; Cybersécurité</h2>
+                    <p class="lead">Étudiant en deuxième année de BTS SIO option SISR, je me spécialise dans la sécurisation des infrastructures : pare-feu, filtrage, segmentation réseau et bonnes pratiques de cybersécurité.</p>
+                    <div class="availability"><span class="dot"></span> Recherche un stage du 04/01/2027 au 06/02/2027</div>
+                    <div class="hero-actions">
+                        <a href="CV_Raphael_MAYAUDON.pdf" class="btn btn-primary" target="_blank" rel="noopener">Télécharger mon CV</a>
+                        <a href="competences.html#securite" class="btn btn-outline">Mes compétences cyber</a>
+                    </div>
+                </div>
+                <div class="terminal" aria-label="Présentation façon terminal">
+                    <div class="term-bar"><i></i><i></i><i></i><span>raphael@sisr: ~</span></div>
+                    <div class="term-body" id="terminal">
+                        <div class="line"><span class="prompt">raphael@sisr<b>:~$</b></span> <span class="cmd">whoami</span></div>
+                        <div class="line out">Raphaël Mayaudon – étudiant BTS SIO option SISR</div>
+                        <div class="line"><span class="prompt">raphael@sisr<b>:~$</b></span> <span class="cmd">cat focus.txt</span></div>
+                        <div class="line out">Cybersécurité · Administration réseau · Systèmes</div>
+                        <div class="line"><span class="prompt">raphael@sisr<b>:~$</b></span> <span class="cmd">ls certifications/</span></div>
+                        <div class="line out">CCNA   Certification_Linux   MOOC_ANSSI</div>
+                        <div class="line"><span class="prompt">raphael@sisr<b>:~$</b></span> <span class="cmd">cat stage.txt</span></div>
+                        <div class="line out"><span class="k">dernier :</span> Support informatique – ETS Henri Peignen</div>
+                        <div class="line out"><span class="k">recherché :</span> <span class="ok">réseau / cybersécurité – janv. → fév. 2027</span></div>
+                        <div class="line"><span class="prompt">raphael@sisr<b>:~$</b></span> <span class="cursor"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt">
+            <div class="container">
+                <div class="stats">
+                    <div class="card stat"><strong>6 semaines</strong><span>de stage en support informatique</span></div>
+                    <div class="card stat"><strong>3</strong><span>certifications et MOOC</span></div>
+                    <div class="card stat"><strong>4</strong><span>domaines de compétences</span></div>
+                    <div class="card stat"><strong>Bac STI2D</strong><span>obtenu en 2025</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Focus cybersécurité</h2>
+                    <p>Le domaine dans lequel je souhaite me spécialiser, et ce que j'ai déjà mis en pratique.</p>
+                </div>
+                <div class="grid-4">
+                    <a href="competences.html#securite" class="card">
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+                        <h3>Pare-feu et filtrage</h3>
+                        <p>Configuration de pfSense, règles de filtrage et NAT.</p>
+                        <div class="tags"><span class="tag">pfSense</span><span class="tag">NAT</span></div>
+                    </a>
+                    <a href="projets.html#infrastructure" class="card">
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg></div>
+                        <h3>Segmentation réseau</h3>
+                        <p>Isolation des flux grâce aux VLAN dans une infrastructure d'entreprise.</p>
+                        <div class="tags"><span class="tag">VLAN</span><span class="tag">Cisco</span></div>
+                    </a>
+                    <a href="parcours.html#stage-peignen" class="card">
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2M2 13h20"/></svg></div>
+                        <h3>Sécurité en entreprise</h3>
+                        <p>Sensibilisation des utilisateurs et respect des règles de sécurité pendant mon stage.</p>
+                        <div class="tags"><span class="tag">Stage</span><span class="tag">Bonnes pratiques</span></div>
+                    </a>
+                    <a href="parcours.html#certifications" class="card">
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/></svg></div>
+                        <h3>Formation continue</h3>
+                        <p>MOOC de l'ANSSI, CCNA Cisco et certification Linux.</p>
+                        <div class="tags"><span class="tag">ANSSI</span><span class="tag">CCNA</span></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt">
+            <div class="container about">
+                <!-- Pour mettre ta photo : remplace RM par <img src="photo.jpg" alt="Raphaël Mayaudon"> -->
+                <div class="avatar">RM</div>
+                <div>
+                    <div class="section-title"><h2>À propos</h2></div>
+                    <p>Étudiant en deuxième année de BTS SIO option SISR à l'Institution Saint-Aspais de Melun, je développe mes compétences en administration des systèmes et des réseaux, en virtualisation et en cybersécurité.</p>
+                    <p>Mon stage en support informatique chez <a href="parcours.html#stage-peignen">ETS Henri Peignen</a> m'a permis de travailler en conditions réelles : préparation de postes, déploiement de logiciels, assistance aux utilisateurs et découverte d'un environnement <a href="competences.html#systemes">Active Directory</a>.</p>
+                    <p>Sérieux, curieux et motivé, je souhaite aujourd'hui me spécialiser en <a href="competences.html#securite">cybersécurité</a> et en administration réseau au sein d'une équipe informatique.</p>
+                    <a href="parcours.html" class="card-link">Voir mon parcours complet →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Domaines de compétences</h2>
+                    <p>Cliquez sur un domaine pour voir le détail des compétences et des outils maîtrisés.</p>
+                </div>
+                <div class="grid-4">
+                    <a href="competences.html#securite" class="card featured">
+                        <span class="badge">priorité</span>
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+                        <h3>Cybersécurité</h3>
+                        <p>pfSense, pare-feu, NAT, règles de filtrage, sensibilisation.</p>
+                        <span class="card-link">En savoir plus →</span>
+                    </a>
+                    <a href="competences.html#reseaux" class="card">
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg></div>
+                        <h3>Réseaux</h3>
+                        <p>Adressage IP, VLAN, routage, DHCP, DNS, NAT.</p>
+                        <span class="card-link">En savoir plus →</span>
+                    </a>
+                    <a href="competences.html#systemes" class="card">
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="1.5"/><rect x="3" y="14" width="18" height="7" rx="1.5"/><path d="M7 6.5h.01M7 17.5h.01"/></svg></div>
+                        <h3>Systèmes</h3>
+                        <p>Linux, Windows, Active Directory, VirtualBox, Proxmox.</p>
+                        <span class="card-link">En savoir plus →</span>
+                    </a>
+                    <a href="competences.html#developpement" class="card">
+                        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></div>
+                        <h3>Développement</h3>
+                        <p>HTML, CSS, PHP, MySQL.</p>
+                        <span class="card-link">En savoir plus →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Projets et réalisations</h2>
+                    <p>Une sélection de travaux réalisés en formation et en stage.</p>
+                </div>
+                <div class="grid-2">
+                    <a href="projets.html#infrastructure" class="card">
+                        <h3>Infrastructure réseau d'entreprise</h3>
+                        <p>Segmentation en VLAN, services DHCP et DNS, annuaire Active Directory.</p>
+                        <div class="tags"><span class="tag">Windows Server</span><span class="tag">Active Directory</span><span class="tag">VLAN</span><span class="tag">Cisco</span></div>
+                    </a>
+                    <a href="projets.html#radan" class="card">
+                        <h3>Déploiement logiciel en entreprise</h3>
+                        <p>Installation et configuration du logiciel Radan sur plusieurs postes pendant mon stage.</p>
+                        <div class="tags"><span class="tag">Stage</span><span class="tag">Radan</span><span class="tag">Support utilisateurs</span></div>
+                    </a>
+                    <a href="projets.html#serveur-web" class="card">
+                        <h3>Serveur web Linux</h3>
+                        <p>Déploiement d'un serveur web Apache sous Linux.</p>
+                        <div class="tags"><span class="tag">Linux</span><span class="tag">Apache</span></div>
+                    </a>
+                    <a href="projets.html#virtualisation" class="card">
+                        <h3>Solution de virtualisation</h3>
+                        <p>Plateforme de virtualisation pour optimiser les ressources et déployer de nouveaux services.</p>
+                        <div class="tags"><span class="tag">Virtualisation</span><span class="tag">VirtualBox</span></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="cta">
+                    <div>
+                        <h2>Vous recherchez un stagiaire en réseau ou cybersécurité ?</h2>
+                        <p>&gt; disponible du 04/01/2027 au 06/02/2027</p>
+                    </div>
+                    <a href="contact.html" class="btn btn-light">Me contacter</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Raphaël Mayaudon</h4>
+                    <p>Étudiant en BTS SIO option SISR à l'Institution Saint-Aspais de Melun. À la recherche d'un stage en administration réseau et cybersécurité du 4 janvier au 6 février 2027.</p>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="parcours.html">Parcours</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:raphaelmayaudon778@gmail.com">raphaelmayaudon778@gmail.com</a></li>
+                        <li><a href="tel:+33783801743">07 83 80 17 43</a></li>
+                        <li>Le Châtelet-en-Brie (77)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">© <span id="year">2026</span> Raphaël Mayaudon – Portfolio BTS SIO SISR</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
