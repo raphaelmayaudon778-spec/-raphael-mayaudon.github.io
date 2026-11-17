@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Résumé du rapport de stage de première année de BTS SIO SISR de Raphaël Mayaudon, chez Henri Peignen SAS.">
+    <title>Rapport de stage – Raphaël Mayaudon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="brand">
+                <span class="brand-logo">RM</span>
+                <span>Raphaël Mayaudon<small>BTS SIO – option SISR</small></span>
+            </a>
+
+            <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="bts-sio.html">BTS SIO</a></li>
+                <li>
+                    <button aria-expanded="false" class="active">Parcours <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="parcours.html#experiences">Expériences professionnelles<span>Stage, emplois</span></a></li>
+                        <li><a href="parcours.html#formation">Formation<span>BTS SIO, Bac STI2D</span></a></li>
+                        <li><a href="rapport-stage.html">Rapport de stage<span>Stage chez ETS Henri Peignen</span></a></li>
+                        <li><a href="parcours.html#certifications">Certifications<span>CCNA, Linux, ANSSI</span></a></li>
+                        <li><a href="parcours.html#profil">Qualités et centres d'intérêt</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false">Compétences <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="competences.html#securite">Cybersécurité<span>Pare-feu, filtrage, bonnes pratiques</span></a></li>
+                        <li><a href="competences.html#reseaux">Réseaux</a></li>
+                        <li><a href="competences.html#systemes">Systèmes et virtualisation</a></li>
+                        <li><a href="competences.html#developpement">Développement</a></li>
+                        <li><a href="competences.html#logiciels">Logiciels et outils</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button aria-expanded="false">Projets <i class="caret"></i></button>
+                    <ul class="dropdown">
+                        <li><a href="projets.html#infrastructure">Infrastructure réseau d'entreprise</a></li>
+                        <li><a href="projets.html#serveur-web">Serveur web Linux</a></li>
+                        <li><a href="projets.html#virtualisation">Solution de virtualisation</a></li>
+                        <li><a href="projets.html#radan">Déploiement logiciel en entreprise<span>Réalisé en stage</span></a></li>
+                        <li><a href="projets.html#ninjaone">Gestion des vulnérabilités (NinjaOne)<span>Réalisé en stage</span></a></li>
+                        <li><a href="projets.html#poste">Installation d'un poste utilisateur<span>Réalisé en stage</span></a></li>
+                        <li><a href="projets.html#rj45">Réalisation d'un câble RJ45<span>Réalisé en stage</span></a></li>
+                    </ul>
+                </li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="CV_Raphael_MAYAUDON.pdf" class="btn-cv" target="_blank" rel="noopener">Mon CV</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <p class="breadcrumb"><a href="index.html">Accueil</a> / <a href="parcours.html">Parcours</a> / Rapport de stage</p>
+                <h1>Rapport de stage</h1>
+                <p>Stage de première année de BTS SIO SISR, six semaines au service support informatique de Henri Peignen SAS.</p>
+            </div>
+        </section>
+
+        <nav class="subnav" aria-label="Sections de la page">
+            <div class="container">
+                <ul>
+                    <li><a href="#existant">1. Étude de l'existant</a></li>
+                    <li><a href="#cahier">2. Cahier des charges</a></li>
+                    <li><a href="#travail">3. Travail accompli</a></li>
+                    <li><a href="#bilan">4. Bilan personnel</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="section" id="existant">
+            <div class="container">
+                <div class="section-title"><h2>1. Étude de l'existant</h2></div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>L'entreprise</h3>
+                        <p>Henri Peignen SAS, à Combs-la-Ville (77), appartient au Groupe Fermator, fabricant international de portes automatiques pour ascenseurs. Le site emploie environ 54 salariés (production, logistique, bureaux et support informatique local).</p>
+                        <p>Quatre techniciens assurent le support de proximité : incidents, préparation de postes, maintenance du matériel et accompagnement des utilisateurs. La direction informatique du groupe est située en Espagne.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Le contexte informatique</h3>
+                        <p>Un parc d'environ 50 postes sous Windows 11, des serveurs Windows, un serveur SQL qui héberge la base de données de l'ERP de l'entreprise, et une infrastructure virtualisée avec VMware.</p>
+                        <p>Mon tuteur m'a présenté la salle serveur : pare-feu, serveurs, baies de stockage, équipement de sauvegarde et switchs. J'ai ensuite fait des recherches personnelles pour comprendre le rôle de chaque équipement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="cahier">
+            <div class="container">
+                <div class="section-title"><h2>2. Cahier des charges</h2><p>Un stage composé de plusieurs missions variées, confiées progressivement par mon tuteur.</p></div>
+                <div class="grid-3">
+                    <div class="card"><h3>Support informatique</h3><ul class="list"><li>Installation complète d'un poste</li><li>Préparation d'un ordinateur neuf</li><li>Remplacement d'écrans et de claviers</li><li>Déplacement d'un poste</li></ul></div>
+                    <div class="card"><h3>Logiciels</h3><ul class="list"><li>Installation de Radan</li><li>Documentation technique sur Radan</li><li>Découverte de Kardex Power Pick System</li></ul></div>
+                    <div class="card"><h3>Réseau</h3><ul class="list"><li>Réalisation d'un câble RJ45</li><li>Découverte des switchs</li><li>Observation de l'infrastructure</li></ul></div>
+                    <div class="card"><h3>Administration système</h3><ul class="list"><li>Observation d'Active Directory</li><li>Découverte des serveurs Windows</li><li>Découverte de VMware</li></ul></div>
+                    <div class="card featured"><h3>Cybersécurité</h3><ul class="list"><li>Utilisation de NinjaOne</li><li>Recherche et correction de vulnérabilités</li><li>Étude de CrowdStrike Falcon</li></ul></div>
+                    <div class="card"><h3>Objectif du stage</h3><p>Découvrir le fonctionnement d'un service informatique en entreprise industrielle et mettre en pratique ma première année de BTS. Les objectifs fixés par mon tuteur ont été atteints.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="travail">
+            <div class="container">
+                <div class="section-title"><h2>3. Travail accompli</h2></div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Installation de Radan</h3>
+                        <p>Déploiement d'un logiciel métier de tôlerie sur plusieurs postes, avec activation par licence. J'ai aussi rédigé la documentation de la procédure d'installation et de la demande de support.</p>
+                        <a class="card-link" href="projets.html#radan">Voir la réalisation →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Installation d'un poste utilisateur</h3>
+                        <p>Mise en service d'un poste vierge, et résolution d'un problème de clé USB bootable en préparant le disque depuis un autre poste.</p>
+                        <a class="card-link" href="projets.html#poste">Voir la réalisation →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Câble RJ45</h3>
+                        <p>Fabrication et test d'un câble réseau selon le câblage normalisé. Une des missions que j'ai préférées.</p>
+                        <a class="card-link" href="projets.html#rj45">Voir la réalisation →</a>
+                    </div>
+                    <div class="card featured">
+                        <h3>Vulnérabilités avec NinjaOne</h3>
+                        <p>Analyse des vulnérabilités, installation de correctifs, suppression de logiciels obsolètes, découverte du patch management et des rapports.</p>
+                        <a class="card-link" href="projets.html#ninjaone">Voir la réalisation →</a>
+                    </div>
+                    <div class="card">
+                        <h3>Active Directory</h3>
+                        <p>Observation de mon tuteur lors de la création d'un compte utilisateur : la gestion des comptes et des droits est centralisée sur un serveur.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Études personnelles</h3>
+                        <ul class="list">
+                            <li>Protocoles série RS-232, RS-422 et RS-485 : portée, résistance aux perturbations, nombre d'équipements raccordables.</li>
+                            <li>CrowdStrike Falcon : détection des menaces et incident mondial de 2024 dû à une mise à jour défectueuse.</li>
+                            <li>Kardex Power Pick System : gestion automatisée du stockage et de la préparation des commandes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="bilan">
+            <div class="container">
+                <div class="section-title"><h2>4. Bilan personnel</h2></div>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Compétences acquises</h3>
+                        <ul class="list">
+                            <li>Préparer un poste utilisateur et installer un système d'exploitation.</li>
+                            <li>Participer au déploiement d'un logiciel métier.</li>
+                            <li>Réaliser un câble RJ45.</li>
+                            <li>Utiliser un outil de supervision pour détecter et corriger des vulnérabilités.</li>
+                            <li>Travailler avec méthode, suivre des procédures et rédiger une documentation claire.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Difficultés rencontrées</h3>
+                        <ul class="list">
+                            <li>Le démarrage USB qui ne fonctionnait pas : j'ai appris à changer de méthode.</li>
+                            <li>Des logiciels professionnels bien plus complets que ceux des travaux pratiques : une période d'adaptation a été nécessaire.</li>
+                            <li>Des équipements inconnus en salle serveur : des recherches personnelles m'ont aidé.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Raphaël Mayaudon</h4>
+                    <p>Étudiant en BTS SIO option SISR à l'Institution Saint-Aspais de Melun. À la recherche d'un stage en administration réseau et cybersécurité du 4 janvier au 6 février 2027.</p>
+                </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="bts-sio.html">BTS SIO</a></li>
+                        <li><a href="parcours.html">Parcours</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="veille.html">Veille technologique</a></li>
+                        <li><a href="rapport-stage.html">Rapport de stage</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:raphaelmayaudon778@gmail.com">raphaelmayaudon778@gmail.com</a></li>
+                        <li><a href="tel:+33783801743">07 83 80 17 43</a></li>
+                        <li>Le Châtelet-en-Brie (77)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">© <span id="year">2026</span> Raphaël Mayaudon – Portfolio BTS SIO SISR</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
